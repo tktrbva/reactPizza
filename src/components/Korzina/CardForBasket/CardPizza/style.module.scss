@@ -1,0 +1,56 @@
+.cart_for_basket {
+  margin-top: 60px;
+  display: flex;
+  .pizza {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    img {
+      width: 80px;
+      height: 80px;
+    }
+    .pizza_info {
+      width: 280px;
+      margin-right: 68px;
+      h2 {
+        color: #000;
+        font-size: 22px;
+        font-weight: 700;
+      }
+      p {
+        color: #8d8d8d;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+  .pizza_counter {
+    margin-right: 98px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    p {
+      color: #000;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+    }
+    img {
+      cursor: pointer;
+    }
+  }
+  .pizza_price {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+    p {
+      width: 65px;
+      color: #000;
+      font-size: 21px;
+      font-weight: 700;
+    }
+    img {
+      cursor: pointer;
+    }
+  }
+}

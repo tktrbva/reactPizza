@@ -1,0 +1,11 @@
+h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 32px 0 35px 0;
+}
+.pizza_wrapper__cards {
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 60px 0;
+}

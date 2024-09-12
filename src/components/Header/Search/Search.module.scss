@@ -1,0 +1,16 @@
+.search {
+  position: relative;
+
+  .input {
+    position: absolute;
+    left: -300px;
+    width: 350px;
+    padding: 10px 25px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    outline: none;
+    &:focus {
+      width: 450px;
+    }
+  }
+}

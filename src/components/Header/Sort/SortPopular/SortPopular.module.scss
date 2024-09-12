@@ -1,0 +1,38 @@
+.popular {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  img {
+    width: 10px;
+    cursor: pointer;
+  }
+  span {
+    color: #fe5f1e;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration-style: dashed;
+  }
+  p {
+    color: #2c2c2c;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+.modal {
+  position: absolute;
+  right: 80px;
+  top: 300px;
+  height: 136px;
+  border-radius: 10px;
+  p {
+    padding: 10px 20px;
+    color: #fe5f1e;
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+.active {
+  background: #f7d4c6;
+}

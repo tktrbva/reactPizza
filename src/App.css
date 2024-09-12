@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Open Sans;
+}
+.wrapper {
+  padding: 77px 50px;
+  background: white;
+  border-radius: 10px;
+}
+.App {
+  background: #ffdf8c;
+  padding: 40px;
+  width: 100%;
+}
